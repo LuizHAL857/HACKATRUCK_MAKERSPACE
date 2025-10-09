@@ -72,6 +72,7 @@ struct ShopView: View {
                         Button("Fechar") {
                             dismiss()
                         }
+                        .foregroundStyle(.black)
                     }
                 }
             }
@@ -129,6 +130,7 @@ struct ShopItemRow: View {
         if let index = todosOsPets.firstIndex(of: pet) {
          
             todosOsPets[index].isComprado = true
+            
         }
     }
 }

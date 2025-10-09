@@ -16,9 +16,10 @@ struct Pet: Hashable, Decodable {
 
 var todosOsPetsIniciais: [Pet] = [
     Pet(nome: "Ramsés", imagemNome: "farao", custo: 50),
-    Pet(nome: "croco", imagemNome: "crocs", custo: 40),
-    Pet(nome: "bozo", imagemNome: "palhaco", custo: 30),
-    Pet(nome: "winx", imagemNome: "borboleta", custo: 20),
-    Pet(nome: "harry", imagemNome: "bruxo", custo: 60),
-    Pet(nome: "houston", imagemNome: "astronauta", custo:50)
+    Pet(nome: "Croc", imagemNome: "crocs", custo: 40),
+    Pet(nome: "Bozo", imagemNome: "palhaco", custo: 30),
+    Pet(nome: "Winx", imagemNome: "borboleta", custo: 20),
+    Pet(nome: "Harry", imagemNome: "bruxo", custo: 60),
+    Pet(nome: "Houston", imagemNome: "astronauta", custo:50)
 ]
+

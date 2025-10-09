@@ -14,8 +14,6 @@ struct OwnedPetGridItem: View {
                 
                
         }
-        
-       
     }
 }
 
@@ -76,7 +74,7 @@ struct PetsView: View {
                     ToolbarItem(placement: .navigationBarTrailing) {
                         Button("Loja 🛒") {
                             showingShop = true
-                        }
+                        }.foregroundStyle(.black)
                     }
                 }
                 .sheet(isPresented: $showingShop) {

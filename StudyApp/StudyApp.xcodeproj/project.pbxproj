@@ -19,6 +19,22 @@
 		C0878E062E946FED00B26FF6 /* PetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0878E052E946FED00B26FF6 /* PetsView.swift */; };
 		C0878E082E94742A00B26FF6 /* Pets.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0878E072E94742A00B26FF6 /* Pets.swift */; };
 		C0878E0E2E94785100B26FF6 /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0878E0D2E94785100B26FF6 /* ShopView.swift */; };
+		C0C8C0212E971F35001080FD /* Conquistas.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C8C0202E971F35001080FD /* Conquistas.swift */; };
+		C0C8C0232E972181001080FD /* ConquistaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C8C0222E972181001080FD /* ConquistaViewModel.swift */; };
+		C0C8C0352E972D1B001080FD /* ConquistasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C8C0342E972D1B001080FD /* ConquistasView.swift */; };
+		C0C8C0372E972F0A001080FD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C8C0362E972F0A001080FD /* HomeView.swift */; };
+		C0C8C0392E972F5A001080FD /* menuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C8C0382E972F5A001080FD /* menuView.swift */; };
+		C0C8C03B2E972F7C001080FD /* teste.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C8C03A2E972F7C001080FD /* teste.swift */; };
+		C0C8C03D2E973221001080FD /* PerfilView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C8C03C2E973221001080FD /* PerfilView.swift */; };
+		C0C8C03F2E97325E001080FD /* SheetConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C8C03E2E97325E001080FD /* SheetConfig.swift */; };
+		C0C8C0412E9732EC001080FD /* RecebeMaterias.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C8C0402E9732EC001080FD /* RecebeMaterias.swift */; };
+		C0C8C0432E973759001080FD /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C8C0422E973759001080FD /* ClockView.swift */; };
+		C0C8C0452E9737A5001080FD /* MetasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C8C0442E9737A5001080FD /* MetasView.swift */; };
+		C0C8C0472E9737CF001080FD /* SemiCircularTimerSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C8C0462E9737CF001080FD /* SemiCircularTimerSlider.swift */; };
+		C0C8C0492E9737F6001080FD /* StopwatchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C8C0482E9737F6001080FD /* StopwatchManager.swift */; };
+		C0C8C04B2E97380D001080FD /* StreakCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C8C04A2E97380D001080FD /* StreakCardView.swift */; };
+		C0C8C04D2E973827001080FD /* StreakManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C8C04C2E973827001080FD /* StreakManager.swift */; };
+		C0C8C04F2E973878001080FD /* StreakData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C8C04E2E973878001080FD /* StreakData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +50,22 @@
 		C0878E052E946FED00B26FF6 /* PetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsView.swift; sourceTree = "<group>"; };
 		C0878E072E94742A00B26FF6 /* Pets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pets.swift; sourceTree = "<group>"; };
 		C0878E0D2E94785100B26FF6 /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+		C0C8C0202E971F35001080FD /* Conquistas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conquistas.swift; sourceTree = "<group>"; };
+		C0C8C0222E972181001080FD /* ConquistaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConquistaViewModel.swift; sourceTree = "<group>"; };
+		C0C8C0342E972D1B001080FD /* ConquistasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConquistasView.swift; sourceTree = "<group>"; };
+		C0C8C0362E972F0A001080FD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C0C8C0382E972F5A001080FD /* menuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuView.swift; sourceTree = "<group>"; };
+		C0C8C03A2E972F7C001080FD /* teste.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = teste.swift; sourceTree = "<group>"; };
+		C0C8C03C2E973221001080FD /* PerfilView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilView.swift; sourceTree = "<group>"; };
+		C0C8C03E2E97325E001080FD /* SheetConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetConfig.swift; sourceTree = "<group>"; };
+		C0C8C0402E9732EC001080FD /* RecebeMaterias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecebeMaterias.swift; sourceTree = "<group>"; };
+		C0C8C0422E973759001080FD /* ClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockView.swift; sourceTree = "<group>"; };
+		C0C8C0442E9737A5001080FD /* MetasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetasView.swift; sourceTree = "<group>"; };
+		C0C8C0462E9737CF001080FD /* SemiCircularTimerSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemiCircularTimerSlider.swift; sourceTree = "<group>"; };
+		C0C8C0482E9737F6001080FD /* StopwatchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchManager.swift; sourceTree = "<group>"; };
+		C0C8C04A2E97380D001080FD /* StreakCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakCardView.swift; sourceTree = "<group>"; };
+		C0C8C04C2E973827001080FD /* StreakManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakManager.swift; sourceTree = "<group>"; };
+		C0C8C04E2E973878001080FD /* StreakData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,9 +100,25 @@
 			isa = PBXGroup;
 			children = (
 				C02F14792E8F30C600F61CF6 /* AssistenteDuvidasView.swift */,
+				C0C8C03C2E973221001080FD /* PerfilView.swift */,
+				C0C8C03E2E97325E001080FD /* SheetConfig.swift */,
 				C02F147B2E8F373200F61CF6 /* MensagemView.swift */,
+				C0C8C0362E972F0A001080FD /* HomeView.swift */,
+				C0C8C0382E972F5A001080FD /* menuView.swift */,
+				C0C8C0402E9732EC001080FD /* RecebeMaterias.swift */,
+				C0C8C03A2E972F7C001080FD /* teste.swift */,
+				C0C8C0222E972181001080FD /* ConquistaViewModel.swift */,
+				C0C8C0342E972D1B001080FD /* ConquistasView.swift */,
 				C0878E0D2E94785100B26FF6 /* ShopView.swift */,
+				C0C8C0442E9737A5001080FD /* MetasView.swift */,
+				C0C8C0202E971F35001080FD /* Conquistas.swift */,
+				C0C8C04C2E973827001080FD /* StreakManager.swift */,
+				C0C8C04A2E97380D001080FD /* StreakCardView.swift */,
+				C0C8C04E2E973878001080FD /* StreakData.swift */,
 				C0878E052E946FED00B26FF6 /* PetsView.swift */,
+				C0C8C0482E9737F6001080FD /* StopwatchManager.swift */,
+				C0C8C0462E9737CF001080FD /* SemiCircularTimerSlider.swift */,
+				C0C8C0422E973759001080FD /* ClockView.swift */,
 				C0878E072E94742A00B26FF6 /* Pets.swift */,
 				C02F14732E8F2FF700F61CF6 /* APIKey.swift */,
 				C054ACA92E8DE55900059AB6 /* StudyAppApp.swift */,
@@ -171,10 +219,26 @@
 				C02F147A2E8F30C600F61CF6 /* AssistenteDuvidasView.swift in Sources */,
 				C0878E0E2E94785100B26FF6 /* ShopView.swift in Sources */,
 				C054ACAC2E8DE55900059AB6 /* ContentView.swift in Sources */,
+				C0C8C0412E9732EC001080FD /* RecebeMaterias.swift in Sources */,
 				C02F14742E8F2FF700F61CF6 /* APIKey.swift in Sources */,
+				C0C8C0212E971F35001080FD /* Conquistas.swift in Sources */,
+				C0C8C0472E9737CF001080FD /* SemiCircularTimerSlider.swift in Sources */,
+				C0C8C0452E9737A5001080FD /* MetasView.swift in Sources */,
+				C0C8C0432E973759001080FD /* ClockView.swift in Sources */,
+				C0C8C0232E972181001080FD /* ConquistaViewModel.swift in Sources */,
 				C054ACAA2E8DE55900059AB6 /* StudyAppApp.swift in Sources */,
 				C0878E062E946FED00B26FF6 /* PetsView.swift in Sources */,
+				C0C8C03F2E97325E001080FD /* SheetConfig.swift in Sources */,
+				C0C8C04B2E97380D001080FD /* StreakCardView.swift in Sources */,
+				C0C8C04F2E973878001080FD /* StreakData.swift in Sources */,
+				C0C8C04D2E973827001080FD /* StreakManager.swift in Sources */,
+				C0C8C0352E972D1B001080FD /* ConquistasView.swift in Sources */,
+				C0C8C03D2E973221001080FD /* PerfilView.swift in Sources */,
+				C0C8C0372E972F0A001080FD /* HomeView.swift in Sources */,
+				C0C8C0492E9737F6001080FD /* StopwatchManager.swift in Sources */,
 				C02F147C2E8F373200F61CF6 /* MensagemView.swift in Sources */,
+				C0C8C0392E972F5A001080FD /* menuView.swift in Sources */,
+				C0C8C03B2E972F7C001080FD /* teste.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
