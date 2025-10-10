@@ -3,9 +3,9 @@ import Foundation
 import SwiftUI
 
 struct menuView: View{
-//    @StateObject private var DayStreakManager
+    @Binding var tempoEstudado: Double
+    @Binding var dinheiro: Double
     @ObservedObject var manager : StreakManager
-    @State var streak: Int = 780
     @Binding var Nome: String
     var body: some View {
         NavigationStack{
@@ -48,7 +48,7 @@ struct menuView: View{
                             Image("cat")
                                 .resizable()
                                 .scaledToFit()
-                                .frame(width: 150)
+                                .frame(width: 125)
                             
                             ZStack{
                                 StreakCardView(manager: manager, title: "Dias")
@@ -59,7 +59,7 @@ struct menuView: View{
                     
                 //NAVIGATION
                 
-                NavigationLink (destination: ClockView(manager: manager)){
+                NavigationLink (destination: ClockView(manager: manager, tempoEstudado: $tempoEstudado, dinheiro: $dinheiro)){
                         HStack{
                             Image(systemName: "clock")
                                 .resizable()
@@ -68,14 +68,15 @@ struct menuView: View{
                             Text("Timer")
                                 .font(.title2)
                         }
-                                        }
+                }
                                         .padding()
                                         .frame(width: 270,height: 70)
                                         .background(.liverChestnut)
                                         .cornerRadius(15)
                                         .foregroundColor(.paleSilver)
+                                        
                 
-                NavigationLink (destination: ClockView(manager: manager)){
+                NavigationLink (destination: cronogramaView()){
                         HStack{
                             Image(systemName: "calendar")
                                 .resizable()

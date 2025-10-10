@@ -19,6 +19,11 @@
 		C0878E062E946FED00B26FF6 /* PetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0878E052E946FED00B26FF6 /* PetsView.swift */; };
 		C0878E082E94742A00B26FF6 /* Pets.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0878E072E94742A00B26FF6 /* Pets.swift */; };
 		C0878E0E2E94785100B26FF6 /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0878E0D2E94785100B26FF6 /* ShopView.swift */; };
+		C097EB042EAC38ED001FB8F3 /* ConquistaDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C097EB032EAC38ED001FB8F3 /* ConquistaDetailView.swift */; };
+		C097EB062EAC4E8B001FB8F3 /* CronogramaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C097EB052EAC4E8B001FB8F3 /* CronogramaView.swift */; };
+		C097EB082EAC4EAD001FB8F3 /* addView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C097EB072EAC4EAD001FB8F3 /* addView.swift */; };
+		C097EB0A2EAC4EC8001FB8F3 /* EnumDias.swift in Sources */ = {isa = PBXBuildFile; fileRef = C097EB092EAC4EC8001FB8F3 /* EnumDias.swift */; };
+		C097EB0C2EAC4F7C001FB8F3 /* ListaAtividadeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C097EB0B2EAC4F7C001FB8F3 /* ListaAtividadeView.swift */; };
 		C0C8C0212E971F35001080FD /* Conquistas.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C8C0202E971F35001080FD /* Conquistas.swift */; };
 		C0C8C0232E972181001080FD /* ConquistaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C8C0222E972181001080FD /* ConquistaViewModel.swift */; };
 		C0C8C0352E972D1B001080FD /* ConquistasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C8C0342E972D1B001080FD /* ConquistasView.swift */; };
@@ -50,6 +55,11 @@
 		C0878E052E946FED00B26FF6 /* PetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsView.swift; sourceTree = "<group>"; };
 		C0878E072E94742A00B26FF6 /* Pets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pets.swift; sourceTree = "<group>"; };
 		C0878E0D2E94785100B26FF6 /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+		C097EB032EAC38ED001FB8F3 /* ConquistaDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConquistaDetailView.swift; sourceTree = "<group>"; };
+		C097EB052EAC4E8B001FB8F3 /* CronogramaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CronogramaView.swift; sourceTree = "<group>"; };
+		C097EB072EAC4EAD001FB8F3 /* addView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addView.swift; sourceTree = "<group>"; };
+		C097EB092EAC4EC8001FB8F3 /* EnumDias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumDias.swift; sourceTree = "<group>"; };
+		C097EB0B2EAC4F7C001FB8F3 /* ListaAtividadeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaAtividadeView.swift; sourceTree = "<group>"; };
 		C0C8C0202E971F35001080FD /* Conquistas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conquistas.swift; sourceTree = "<group>"; };
 		C0C8C0222E972181001080FD /* ConquistaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConquistaViewModel.swift; sourceTree = "<group>"; };
 		C0C8C0342E972D1B001080FD /* ConquistasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConquistasView.swift; sourceTree = "<group>"; };
@@ -83,6 +93,7 @@
 		C054AC9D2E8DE55900059AB6 = {
 			isa = PBXGroup;
 			children = (
+				C097EB0D2EAC4F92001FB8F3 /* New Group */,
 				C054ACA82E8DE55900059AB6 /* StudyApp */,
 				C054ACA72E8DE55900059AB6 /* Products */,
 			);
@@ -113,10 +124,15 @@
 				C0C8C0442E9737A5001080FD /* MetasView.swift */,
 				C0C8C0202E971F35001080FD /* Conquistas.swift */,
 				C0C8C04C2E973827001080FD /* StreakManager.swift */,
+				C097EB092EAC4EC8001FB8F3 /* EnumDias.swift */,
 				C0C8C04A2E97380D001080FD /* StreakCardView.swift */,
 				C0C8C04E2E973878001080FD /* StreakData.swift */,
 				C0878E052E946FED00B26FF6 /* PetsView.swift */,
 				C0C8C0482E9737F6001080FD /* StopwatchManager.swift */,
+				C097EB0B2EAC4F7C001FB8F3 /* ListaAtividadeView.swift */,
+				C097EB032EAC38ED001FB8F3 /* ConquistaDetailView.swift */,
+				C097EB072EAC4EAD001FB8F3 /* addView.swift */,
+				C097EB052EAC4E8B001FB8F3 /* CronogramaView.swift */,
 				C0C8C0462E9737CF001080FD /* SemiCircularTimerSlider.swift */,
 				C0C8C0422E973759001080FD /* ClockView.swift */,
 				C0878E072E94742A00B26FF6 /* Pets.swift */,
@@ -136,6 +152,14 @@
 				C054ACB02E8DE55A00059AB6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C097EB0D2EAC4F92001FB8F3 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			path = StudyApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,12 +242,15 @@
 				C0878E082E94742A00B26FF6 /* Pets.swift in Sources */,
 				C02F147A2E8F30C600F61CF6 /* AssistenteDuvidasView.swift in Sources */,
 				C0878E0E2E94785100B26FF6 /* ShopView.swift in Sources */,
+				C097EB062EAC4E8B001FB8F3 /* CronogramaView.swift in Sources */,
 				C054ACAC2E8DE55900059AB6 /* ContentView.swift in Sources */,
 				C0C8C0412E9732EC001080FD /* RecebeMaterias.swift in Sources */,
 				C02F14742E8F2FF700F61CF6 /* APIKey.swift in Sources */,
+				C097EB0A2EAC4EC8001FB8F3 /* EnumDias.swift in Sources */,
 				C0C8C0212E971F35001080FD /* Conquistas.swift in Sources */,
 				C0C8C0472E9737CF001080FD /* SemiCircularTimerSlider.swift in Sources */,
 				C0C8C0452E9737A5001080FD /* MetasView.swift in Sources */,
+				C097EB0C2EAC4F7C001FB8F3 /* ListaAtividadeView.swift in Sources */,
 				C0C8C0432E973759001080FD /* ClockView.swift in Sources */,
 				C0C8C0232E972181001080FD /* ConquistaViewModel.swift in Sources */,
 				C054ACAA2E8DE55900059AB6 /* StudyAppApp.swift in Sources */,
@@ -231,12 +258,14 @@
 				C0C8C03F2E97325E001080FD /* SheetConfig.swift in Sources */,
 				C0C8C04B2E97380D001080FD /* StreakCardView.swift in Sources */,
 				C0C8C04F2E973878001080FD /* StreakData.swift in Sources */,
+				C097EB042EAC38ED001FB8F3 /* ConquistaDetailView.swift in Sources */,
 				C0C8C04D2E973827001080FD /* StreakManager.swift in Sources */,
 				C0C8C0352E972D1B001080FD /* ConquistasView.swift in Sources */,
 				C0C8C03D2E973221001080FD /* PerfilView.swift in Sources */,
 				C0C8C0372E972F0A001080FD /* HomeView.swift in Sources */,
 				C0C8C0492E9737F6001080FD /* StopwatchManager.swift in Sources */,
 				C02F147C2E8F373200F61CF6 /* MensagemView.swift in Sources */,
+				C097EB082EAC4EAD001FB8F3 /* addView.swift in Sources */,
 				C0C8C0392E972F5A001080FD /* menuView.swift in Sources */,
 				C0C8C03B2E972F7C001080FD /* teste.swift in Sources */,
 			);
@@ -372,6 +401,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"StudyApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 42VNG6NHT9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -384,7 +414,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = LuizHenrique.StudyApp;
+				PRODUCT_BUNDLE_IDENTIFIER = StudyApp.com.br;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -400,6 +430,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"StudyApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 42VNG6NHT9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -412,7 +443,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = LuizHenrique.StudyApp;
+				PRODUCT_BUNDLE_IDENTIFIER = StudyApp.com.br;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

@@ -2,8 +2,8 @@ import SwiftUI
 
 struct ClockView: View {
     @ObservedObject var manager : StreakManager
-    @AppStorage("tempoEstudadoTotal") private var tempoEstudadoTotal: Double = 0
-    @State var dinheiros: Double = 0
+    @Binding var tempoEstudado: Double
+    @Binding var dinheiro: Double
     @State private var inputMinutes: Double = 0
     @State private var totalTime: Double = 60
     @State private var timeRemaining: Double = 60
@@ -104,8 +104,8 @@ struct ClockView: View {
                 isRunning = false
                 timer?.invalidate()
                 
-                dinheiros += (totalTime * 10)/60
-                tempoEstudadoTotal += totalTime
+                dinheiro += (totalTime * 10)/60
+                tempoEstudado += totalTime
                 
             }
         }
@@ -128,7 +128,7 @@ struct ClockView: View {
 
 
 
-#Preview {
-    ClockView(manager: StreakManager(key: "DayStreak"))
-}
+//#Preview {
+//    ClockView(manager: StreakManager(key: "DayStreak"), dinheiro: dinheiro)
+//}
 

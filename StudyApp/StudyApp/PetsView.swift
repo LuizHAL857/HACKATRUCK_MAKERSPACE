@@ -22,7 +22,7 @@ struct OwnedPetGridItem: View {
 
 struct PetsView: View {
     @State private var todosOsPets: [Pet] = todosOsPetsIniciais
-    @State var dinheiro: Double = 250
+    @Binding var dinheiro: Double
     @State private var showingShop = false
     
 
@@ -86,6 +86,6 @@ struct PetsView: View {
     }
 }
 
-#Preview {
-    PetsView()
-}
+//#Preview {
+//    PetsView()
+//}

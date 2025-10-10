@@ -13,8 +13,9 @@ struct perfilView: View {
 
 @State  var materias: [String] = []
 
-var tempo_total: Int = 242000
+
 @State var mostrarSheet = false
+@Binding var tempoEstudado: Double
 @ObservedObject var manager: StreakManager
 @State var novaMateria: String = ""
 @Binding var Nome: String
@@ -64,7 +65,7 @@ var body: some View {
                         
                         VStack{
                             
-                            NavigationLink(destination: ConquistasView()){
+                            NavigationLink(destination: ConquistasView(tempoEstudado: $tempoEstudado)){
                                 
                                 HStack{
                                     Image(systemName: "medal")
@@ -125,7 +126,7 @@ var body: some View {
                             ZStack{
                                 
                                 VStack{
-                                    Text("\(tempo_total)")
+                                    Text(String(format: "%.0f", tempoEstudado/60))
                                         .font(.title)
                                     Text("min de foco")
                                 }

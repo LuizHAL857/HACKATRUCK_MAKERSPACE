@@ -8,7 +8,7 @@ class ConquistaViewModel: ObservableObject {
     @Published var conquistas: [Conquista] = []
 
     func fetchConquistas() {
-        guard let url = URL(string: "http://127.0.0.1:1880/hackaluiz") else {
+        guard let url = URL(string: "http://192.168.128.32:1880/hackaluiz") else {
             print("URL inválida")
             return
         }
